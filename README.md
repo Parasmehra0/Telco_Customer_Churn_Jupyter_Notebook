@@ -4,4 +4,4 @@ Customer Churn Analysis This project provides a comprehensive analysis of custom
 Technologies Used
 Python (Pandas, NumPy)
 Matplotlib, Seaborn for visualization
-Jupyter Notebook for interactive data exploration
+Jupyter Notebook for interactive data exploration.
