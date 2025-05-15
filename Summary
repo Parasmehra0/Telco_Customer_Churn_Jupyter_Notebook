@@ -1,0 +1,30 @@
+📊 Executive Summary
+This project focuses on analyzing customer churn behavior using a structured data analysis pipeline that includes data preprocessing, cleaning, visualization, and insight extraction. The goal is to identify the key drivers of customer churn and recommend actionable strategies to reduce attrition.
+
+🧹 Data Processing & Cleaning
+Missing Values: Handled missing or inconsistent entries using imputation or by dropping irrelevant rows/columns.
+Data Types: Ensured proper data types for categorical and numerical columns (e.g., converting SeniorCitizen from int to category).
+Encoding: Converted categorical features to suitable formats for analysis and visualization.
+
+🧰 Libraries & Tools Used
+Pandas: For data manipulation, cleaning, and summarization.
+NumPy: For numerical computations.
+Matplotlib & Seaborn: For data visualization (bar plots, count plots, and stacked charts).
+Jupyter Notebook: For interactive analysis and code documentation.
+
+📈 Visualizations
+The analysis uses bar plots, count plots, and stacked percentage bar charts to explore:
+Churn distribution across contract types, gender, and age groups.
+Service-wise breakdown: PhoneService, InternetService, OnlineSecurity, TechSupport, StreamingTV, etc.
+Churn patterns by engagement level (e.g., users with no add-ons tend to churn more).
+
+🔍 Key Findings
+Customers with month-to-month contracts have the highest churn rate, while those on 1- or 2-year contracts churn significantly less.
+Users not subscribed to optional services like Online Security, Tech Support, and Streaming Services show greater churn tendency.
+There is no significant churn difference across genders, indicating gender is not a strong predictor.
+Customers engaged with multiple services are more loyal, highlighting the benefit of bundled offerings.
+
+💡 Business Recommendations
+Promote long-term contract plans through discounts or loyalty programs.
+Offer bundled services that encourage multi-feature usage (e.g., internet + streaming + security).
+Use churn scores to proactively target high-risk customers with retention campaigns.
